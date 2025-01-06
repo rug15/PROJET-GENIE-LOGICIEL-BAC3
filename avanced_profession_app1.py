@@ -195,6 +195,7 @@ def main_page(username):
             num_rows = st.number_input("Entrer le nombre de lignes de votre tableau de 8 colonnes", min_value = 1, max_value = 10000, step = 1)
             # Création d'un DataFrame vide avec 8 colonnes
             matrix = np.zeros((num_rows,8))
+            import pandas as pd
             df = pd.DataFrame(matrix, columns = [f'Colonne {i+1}' for i in range(8)])
             
             # Saisie des valeurs dans la matrice
