@@ -1,0 +1,9 @@
+streamlit
+scikit-learn
+pandas
+numpy
+matplotlib
+ydata-profiling
+tensorflow
+joblib
+pickle
