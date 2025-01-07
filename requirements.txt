@@ -5,5 +5,5 @@ numpy
 matplotlib
 ydata-profiling
 tensorflow
-joblib
+joblib 1.4.2
 pickle
